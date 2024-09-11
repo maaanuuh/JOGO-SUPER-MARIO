@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Mario</title>
-    <link rel="stylesheet" hef="style.css"
+    <title>Super Marcio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="geme-board">
-        <img src="/img/clouds.png" class="nevem"
-        <img src="/img/mario.gif" class="mario"
-        <img src="/img/pipe.png" class="pipe"
+    <div class="game-board">
+        <img src="clouds.png" class="nuvem">
+        <img src="mario.gif" class="mario">
+        <img src="pipe.png" class="pipe">
+        <button class="start" onclick="startGame()">Iniciar</button>
     </div>
+        <div class="game-over">
+            <h1>Game Over :(</h1>
+            <button onclick="restartGame()">Reiniciar</button>
+        </div>
+    <script src="main.js"></script>
 </body>
 </html>
